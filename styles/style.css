@@ -119,8 +119,8 @@ section.articles .article:focus {
 }
 
 .image-sidebar {
-	width: 30%;
-	padding-right: 10px;
+	width: 120px;
+	padding-right: 30px;
 }
 
 .sidebar-content .articles {
@@ -131,6 +131,10 @@ section.articles .article:focus {
 .sidebar-content .article {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: flex-start;
+
 }
 
 .article-title {
